@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
     @IBAction func sendButtonPress(sender: AnyObject) {
         topLabel.text = nameLabel.text
-        topLabel.textColor = UIColor.redColor()
+        topLabel.textColor = UIColor.blueColor()
         topLabel.hidden = false
         
         nameLabel.text = ""
